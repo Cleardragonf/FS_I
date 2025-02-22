@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // ES6 to match Node.js environment
+    "module": "CommonJS", // Use CommonJS modules for Node.js
+    "esModuleInterop": true, // Allows using default imports for CommonJS modules
+    "outDir": "./dist", // Compiled files go into the dist folder
+    "strict": true, // Enable strict type-checking
+    "skipLibCheck": true, // Skip library checks for faster builds
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file name casing
+  },
+  "include": ["src/**/*.ts"], // Include all TypeScript files in the src directory
+  "exclude": ["node_modules"] // Exclude node_modules from compilation
+}
