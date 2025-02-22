@@ -6,6 +6,10 @@ FS_I is a simple TypeScript-based web application built with React for the front
 
 This section will explain the setup, development, and deployment steps for both the frontend and backend.
 
+Approximate Build time: 4 hours.
+
+Documentation Time: 2 hours.
+
 ![This is the Note List Page](image.png)
 
 ![This is the Create/Edit/Delete View in normal Responsive Size](image-3.png)
