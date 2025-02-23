@@ -10,11 +10,15 @@ Approximate Build time: 4 hours.
 
 Documentation Time: 2 hours.
 
+This is the Note List Page
 ![This is the Note List Page](image.png)
 
+This is the Create/Edit/Delete View in normal Responsive Size
 ![This is the Create/Edit/Delete View in normal Responsive Size](image-3.png)
 
+This is the Create/Edit/Delete View when in iPhone 12 Pro
 ![This is the Create/Edit/Delete View when in iPhone 12 Pro](image-2.png)
+
 ---
 
 # **Startup of the Entire System**
@@ -170,6 +174,15 @@ This section explains the scripts used in the `package.json` for building and de
      - Runs `npm run build` to compile the TypeScript files.
      - Runs `npm run start` to start the Node.js application.
 
+5. **`test`** - Run tests for backend
+   ```bash
+   npm run test
+   ```
+   This script runs the Jest tests for your backend application, including any tests written for routes and server logic.
+
+   - **How it works**:
+     - Runs `jest --detectOpenHandles` to detect open handles and potential issues with asynchronous tasks or open server connections.
+
 ---
 
 ### **Summary of Commands**
@@ -180,6 +193,7 @@ This section explains the scripts used in the `package.json` for building and de
 | `build`  | `npm run build`              | Compiles TypeScript files into JavaScript.      |
 | `start`  | `npm run start`              | Starts the backend server from the compiled files. |
 | `deploy` | `npm run deploy`             | Cleans, builds, and starts the backend server.  |
+| `test`   | `npm run test`               | Runs Jest tests for the backend.                |
 
 ---
 
