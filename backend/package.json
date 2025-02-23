@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "clean": "rimraf dist",
     "build": "tsc",
     "start": "node dist/server.js",

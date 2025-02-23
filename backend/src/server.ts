@@ -95,5 +95,11 @@ app.delete('/notes/:id', (req: Request, res: Response): void => {
   res.status(204).send();
 });
 
-// Export the app to be used in tests
+// Check if the environment is not 'test' before starting the server
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => {
+    console.log(`Server running on http://localhost:${port}`);
+  });
+}
+
 export { app };
